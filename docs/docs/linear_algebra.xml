@@ -7,7 +7,6 @@
    <!-- ************************************************************************* -->
 
    <body>
-         <br/><br/>
          <p>
             This page documents the core linear algebra tools included in dlib.
             In particular, the three most important objects in this part of the library are the
@@ -42,7 +41,7 @@
          <name>Dense Matrix Tools</name>
          <item>matrix</item>
          <item nolink="true">
-            <name>Basic_Math_Operators</name>
+            <name>Basic Math Operators</name>
             <sub>
                <item>
                   <name>exp</name>
@@ -167,7 +166,7 @@
             </sub>
          </item>
          <item nolink="true">
-            <name>Linear_Algebra</name>
+            <name>Linear Algebra</name>
             <sub>
                <item>
                   <name>inv</name>
@@ -290,7 +289,7 @@
             </sub>
          </item>
          <item nolink="true">
-            <name>Sub_Matrix_Expressions</name>
+            <name>Sub Matrix Expressions</name>
             <sub>
                <item>
                   <name>range</name>
@@ -301,12 +300,20 @@
                   <link>dlib/matrix/matrix_subexp_abstract.h.html#subm</link>
                </item>
                <item>
+                  <name>subm_clipped</name>
+                  <link>dlib/matrix/matrix_subexp_abstract.h.html#subm_clipped</link>
+               </item>
+               <item>
                   <name>rowm</name>
                   <link>dlib/matrix/matrix_subexp_abstract.h.html#rowm</link>
                </item>
                <item>
                   <name>colm</name>
                   <link>dlib/matrix/matrix_subexp_abstract.h.html#colm</link>
+               </item>
+               <item>
+                  <name>set_ptrm</name>
+                  <link>dlib/matrix/matrix_subexp_abstract.h.html#set_ptrm</link>
                </item>
                <item>
                   <name>set_subm</name>
@@ -400,8 +407,12 @@
             </sub>
          </item>
          <item nolink="true">
-            <name>Other_Utilities</name>
+            <name>Other Utilities</name>
             <sub>
+               <item>
+                  <name>csv</name>
+                  <link>dlib/matrix/matrix_abstract.h.html#csv</link>
+               </item>
                <item>
                   <name>fft</name>
                   <link>dlib/matrix/matrix_fft_abstract.h.html#fft</link>
